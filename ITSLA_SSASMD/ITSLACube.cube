@@ -1521,6 +1521,12 @@
             </Source>
           </Source>
           <FormatString>#,##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="798f0f3a-d5bd-4682-96cc-eeefdaf2a616">
+              <Language>1045</Language>
+              <Caption>Koszt</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="362dcd0d-bc9d-41e9-8573-949b7556c3c6">
           <ID>v Fact Inventory Count</ID>
@@ -1534,6 +1540,12 @@
             </Source>
           </Source>
           <Visible>false</Visible>
+          <Translations>
+            <Translation dwd:design-time-name="ff651256-f948-4b9e-a334-24241ca22b65">
+              <Language>1045</Language>
+              <Caption>Liczba wierszy</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
