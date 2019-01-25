@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1801" scrolltop="-2802" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="10605" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1801" scrolltop="-2802" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="10605" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimProduct" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5313" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimProduct" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5313" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000c114000088130000" />
             </control>
@@ -254,6 +254,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="56de68b0-62a9-406d-b89c-7bb6ac8ee9b3">
+          <Language>1045</Language>
+          <Caption>Etykieta produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -271,6 +277,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="af8f051e-2974-42b5-87eb-87e1fcaf6572">
+          <Language>1045</Language>
+          <Caption>Opis produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -288,6 +300,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="0b768196-ff18-4222-ad9a-4c4a41c79fcb">
+          <Language>1045</Language>
+          <Caption>Producent</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -305,6 +323,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="d4fa3377-db7c-4f6c-b441-d6e28f7ccd85">
+          <Language>1045</Language>
+          <Caption>Nazwa Marki</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -330,6 +354,12 @@
           <ColumnID>ClassName</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="f78c847d-68c5-469a-a689-fcaf021717a8">
+          <Language>1045</Language>
+          <Caption>ID Klasy</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -347,6 +377,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="e2f57b72-9d03-46b1-91f2-eb31ea963c89">
+          <Language>1045</Language>
+          <Caption>Nazwa Klasy</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -364,6 +400,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="d0c7cecb-18e2-4c42-86a7-f063c5165f63">
+          <Language>1045</Language>
+          <Caption>ID Stylu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -381,6 +423,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="d7474790-8a14-4572-9dd0-aaa5d2653421">
+          <Language>1045</Language>
+          <Caption>Nazwa Stylu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -406,6 +454,12 @@
           <ColumnID>ColorName</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="2cbb09be-d7f9-45d6-b054-f80368c6ccfc">
+          <Language>1045</Language>
+          <Caption>ID koloru</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -423,6 +477,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b5e36438-5c33-4c62-8bf4-09c0a5dd9e50">
+          <Language>1045</Language>
+          <Caption>Nazwa koloru</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -448,6 +508,12 @@
           <ColumnID>StockTypeName</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="e409056a-bd03-4628-8303-65b51d328975">
+          <Language>1045</Language>
+          <Caption>ID rodzaju magazynu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -465,6 +531,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="55775eb4-dd51-4818-8798-d2c6608733bb">
+          <Language>1045</Language>
+          <Caption>Nazwa rodzaju magazynu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -490,6 +562,12 @@
           <ColumnID>UnitOfMeasureName</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="02df9dd1-8b36-432e-b2cc-0c68405f0bdb">
+          <Language>1045</Language>
+          <Caption>Klucz jednostki miary</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -507,6 +585,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="8885ac3c-5590-4717-973f-f4ce730adf41">
+          <Language>1045</Language>
+          <Caption>Nazwa jednostki miary</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -531,6 +615,12 @@
           <ColumnID>ProductSubcategoryName</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="6f215d3f-44d9-4b6e-bb38-f938bcba38f9">
+          <Language>1045</Language>
+          <Caption>Klucz podkategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="ca76ff92-0404-48ff-8011-eb039e99adf8">
           <AttributeID>Product Category Key</AttributeID>
@@ -554,6 +644,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="cd6bb032-8b8f-4452-9fd9-3e64f1bf6734">
+          <Language>1045</Language>
+          <Caption>Etykieta podkategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -571,6 +667,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="add00477-957f-446d-b648-a104e85ffc7c">
+          <Language>1045</Language>
+          <Caption>Nazwa podkategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -588,6 +690,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="ffaa61dd-251a-4d34-ab32-592487160d81">
+          <Language>1045</Language>
+          <Caption>Opis podkategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -612,6 +720,12 @@
           <ColumnID>ProductCategoryName</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="ff11e796-838c-4e31-bf1d-a0fd119264c8">
+          <Language>1045</Language>
+          <Caption>Klucz kategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -629,6 +743,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="1bf7d188-c134-43bc-86ab-04b86e8badc9">
+          <Language>1045</Language>
+          <Caption>Etykieta kategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -646,6 +766,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="f8a6365c-e7af-4bc8-a752-97279fbf1f78">
+          <Language>1045</Language>
+          <Caption>Nazwa kategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -663,6 +789,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="99d09cf9-3338-460a-9495-4f31a226ac1d">
+          <Language>1045</Language>
+          <Caption>Opis kategorii produktu</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -677,11 +809,23 @@
           <ID>Product Category Key</ID>
           <Name>Product Category Key</Name>
           <SourceAttributeID>Product Category Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="375e6113-a83c-4734-8221-dd7475306222">
+              <Language>1045</Language>
+              <Caption>Kategoria produktu</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="2d863771-71d6-4534-8917-40fc724625f2">
           <ID>Product Subcategory Key</ID>
           <Name>Product Subcategory Key</Name>
           <SourceAttributeID>Product Subcategory Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="ec67bf59-a6c6-4e0b-b7e7-a79acbc36ab8">
+              <Language>1045</Language>
+              <Caption>Podkategoria produktu</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="32e80c2e-ca49-4a05-95ab-07583ee95b52">
           <ID>Product Key</ID>
