@@ -1278,6 +1278,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension dwd:design-time-name="d14cdec9-2b56-423c-8a45-52c6f1fb9a76">
+          <CubeDimensionID>DimGeography</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b45327cf-f9d3-4332-9109-04a5945074b5">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4aae7dbc-b53b-495e-896f-82cd42314654">
+              <AttributeID>Geography Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
       <MeasureGroups>
         <MeasureGroup dwd:design-time-name="d681abab-3d9c-4f9b-9c39-fc2ae64666ce">
@@ -1316,6 +1327,22 @@
         </Calculation>
         <Calculation dwd:design-time-name="a6a3fe15-4b54-4ee7-a389-ef218f7a13eb">
           <Name>[Measures].[Inventory Safety Stock Quantity Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="a09db245-0bf9-4c43-9e12-a44e7b062d7b">
+          <Name>[Measures].[InventoryOnHandQuantityAvg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="7b703b37-9569-4530-a91b-e318447e64df">
+          <Name>[Measures].[InventoryOnOrderQuantityAvg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="9195c2b9-d78a-4397-b710-1f363abd4f3c">
+          <Name>[Measures].[InventoryUnit CostAvg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="582aa11c-26d8-4be0-a22f-94984b134722">
+          <Name>[Measures].[InventorySafetyStockQuantityAvg]</Name>
           <Type>Member</Type>
         </Calculation>
       </Calculations>
